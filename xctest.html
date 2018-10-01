@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="direction.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body style="background: #f2f2f2">
+
+    <title>携程旅行-酒店预订,机票预订查询,旅游度假,商旅管理-携程无线官网</title>
+    <div id="js-index-page" class="index-page">
+        <div class="index-page-search">
+            <span class="s-back" onclick="myFunction1()"></span>
+            <form>
+                <input type="text" class="search-box1">
+                <button class="s-btn" type="submit">搜索</button>
+            </form>
+        </div>
+        <div class="part">
+            <div class="part1">
+                <span class="span1">下载携程app 专享优惠低至</span>
+                <span class="span2">50%</span>
+            </div>
+            <div class="part2">
+                <h4 class="hot-search">热门搜索</p>
+                    <ul class=" ht-sh">
+                        <li> 旅游</li>
+                        <li>WIFI</li>
+                        <li>攻略</li>
+                        <li>优惠券</li>
+                        <li>酒店</li>
+                        <li>签证</li>
+                        <li>门票</li>
+                        <li>机票</li>
+                    </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="all" id="oo">
+
+        <div class="top">
+            <div class="search-box" onclick="myFunction()">
+
+                <p><span class="glyphicon glyphicon-search"></span>搜索：目的地/酒店/景点/航班号</p>
+            </div>
+            <p class="me"><span class="glyphicon glyphicon-user"></span></p>
+        </div>
+
+        <div class="imgine">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000" style="width: 100%;">
+
+                <ol class="carousel-indicators" style="bottom: 0;">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="lunbo2.jpg" alt="First slide">
+                        <div class="carousel-caption"></div>
+                    </div>
+                    <div class="item">
+                        <img src="lunbo3.jpg" alt="Second slide">
+                        <div class="carousel-caption"></div>
+                    </div>
+                    <div class="item">
+                        <img src="lunbo4.jpg" alt="Third slide">
+                        <div class="carousel-caption"></div>
+                    </div>
+                    <div class="item">
+                        <img src="lunbo6.jpg" alt="Third slide">
+                        <div class="carousel-caption"></div>
+                    </div>
+                    <div class="item">
+                        <img src="lunbotu1.jpg" alt="Third slide">
+                        <div class="carousel-caption"></div>
+                    </div>
+                    <div class="item">
+                        <img src="lunbo5.jpg" alt="Third slide">
+                        <div class="carousel-caption"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="options">
+
+            <ul style="height: 60px;padding: 10px 20px;">
+                <li>
+
+                    <a href="#">
+                        <span class="li1"></span>
+                        <span>景点玩乐</span>
+                    </a>
+                </li>
+                <li>
+
+                    <a href="#"><span class="li2"></span>
+                        <span>周边游</span>
+                       </a>
+                </li>
+                <li>
+
+                    <a href="#"><span class="li3"></span>
+                        <span>美食林</span></a>
+                </li>
+                <li>
+
+                    <a href="#"><span class="li4"></span>
+                        <span>一日游</span></a>
+                </li>
+                <li>
+
+                    <a href="#"><span class="li5"></span>
+                        
+                    <span>当地攻略</span></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="box">
+            <div class="hotCnt">
+                <div class="hot p1">
+                    <div class="hotItem"><a>酒店</a><img src="hotel.png" style="height: 41.8px;margin-top: 19px"></div>
+                    <div class="hotItem">
+                        <div class="hotItem0"><a>海外酒店</a></div>
+                        <div class="hotItem0"><a>特价酒店</a></div>
+                    </div>
+                    <div class="hotItem">
+                        <div class="hotItem0"><a>团购</a></div>
+                        <div class="hotItem0"><a>民宿/客栈</a></div>
+                    </div>
+                </div>
+                <div class="hot p2">
+                    <div class="hotItem"><a>机票</a><img src="plane.png" style="height: 41.8px;margin-top: 19px"></div>
+                    <div class="hotItem">
+                        <div class="hotItem0"><a>火车票</a></div>
+                        <div class="hotItem0"><a>特价机票</a></div>
+                    </div>
+                    <div class="hotItem">
+                        <div class="hotItem0"><a>汽车票/船票</a></div>
+                        <div class="hotItem0"><a>专车/出租车</a></div>
+                    </div>
+                </div>
+                <div class="hot p3">
+                    <div class="hotItem"><a>旅游</a><img src="destination.png" style="height: 41.8px;margin-top: 19px"></div>
+                    <div class="hotItem">
+                        <div class="hotItem0"><a>门票</a></div>
+                        <div class="hotItem0"><a>目的地攻略</a></div>
+                    </div>
+                    <div class="hotItem">
+                        <div class="hotItem0"><a>游轮旅行</a></div>
+                        <div class="hotItem0"><a>定制旅游</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="moreop">
+
+            <ul style="background-color: #fff">
+                <li>
+                    <a href="#"><span class="lip1"></span>
+                            <span>wifi电话</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="lip2"></span>
+                            <span>保险/签证</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="lip3"></span>
+                            <span>外币兑换</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="lip4"></span>
+                            <span>购物</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="lip5"></span>
+                            <span>当地向导</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="lip6"></span>
+                            <span>自由行</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="lip7"></span>
+                            <span>境外玩乐</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="lip8"></span>
+                            <span>礼品卡</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="lip9"></span>
+                            <span>信用卡</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="lip10"></span>
+                            <span>更多</span></a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="sale">
+
+            <h1 class="saleiner"><em>特卖会</em><a class="more">更多></a></h1>
+            <a class="c_sale_hot">
+                <img src="sanya.jpg" style="height: 117px;width: 260px;">
+                <p class="discription">三亚5日自由行</p>
+            </a>
+            <div class="contain1">
+                <div class="contain2">
+                    <a href="#" style="display: block;"><em>千款特价</em></a>
+                    <em>走过路过不错过</em>
+                    <img src="hongbao.png" class="hongbao" alt="千款特价 走过路过不错过">
+                </div>
+                <div class="contain2">
+                    <div class="sale-list"><a><strong>境外精选</strong>
+                        <p>百元出境游</p></a>
+                        <img src="jingwaiyou.png" style="width: 50px; height: 35.5px;">
+                    </div>
+                    <div class="sale-list"><a><strong>周边玩乐</strong>
+                        <p>十元玩周末</p></a>
+                        <img src="zhoubianyou.png" style="width: 50px; height: 35.5px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom1">
+            <div class="sale_hd"></div>
+            <div class="sale_bd">
+                <img src="700e0u000000iv3896A2E_621_431_342.jpg">
+                <img src="700f0w000000keahjB40B_621_431_340.jpg">
+                <img src="700v0w000000knkk67182_620_266_345.jpg" style="height: 115.4px;">
+                <img src="700w0u000000j0mk66B12_620_266_345.jpg" style="height: 115.4px;">
+                <img src="700a0t000000im512AB2C_620_266_345.jpg" style="height: 115.4px;">
+                <img src="700d0s000000htvwo16C4_620_266_345 (1).jpg" style="height: 115.4px;">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="tool_cn">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="9Y}SRZX{~GO]V9T)S2X%KL5.png">
+                                <span>电话预定</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="RY~{})CG(NF7}V)PC))30$F.png">
+                                <span>下载客户端</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="2CBQ[7{7Q7%B[8$U{LE{LXB.png">
+                                <span>我的</span></a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="tool_ever">
+                <a href="#">网站地图|</a>
+                <a href="#">language|</a>
+                <a href="#">电脑版</a>
+            </div>
+            <p>©2018携程旅行｜<a href="#">沪ICP备08023580号</a></p>
+        </div>
+    </div>
+    <div class="js-search-page" style="display: "></div>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
